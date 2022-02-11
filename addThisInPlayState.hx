@@ -1,4 +1,6 @@
-case 'yourbg':
+public var curbg:FlxSprite; //add this near public variables
+
+case 'yourbg': //add this near backgrounds
                 var bg:BGSprite = new BGSprite('image', -100, -200, 0.9, 0.9);
                 add(bg);
                 // below code assumes shaders are always enabled which is bad
